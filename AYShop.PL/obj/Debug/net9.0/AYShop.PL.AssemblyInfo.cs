@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AYShop.PL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b465439901957752206617520973c738f7a6931e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AYShop.PL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AYShop.PL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

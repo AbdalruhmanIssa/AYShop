@@ -1,0 +1,16 @@
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\bin\Debug\net9.0\AYShop.BLL.deps.json
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\bin\Debug\net9.0\AYShop.BLL.dll
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\bin\Debug\net9.0\AYShop.BLL.pdb
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\bin\Debug\net9.0\AYShop.DAL.dll
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\bin\Debug\net9.0\AYShop.DAL.pdb
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.csproj.AssemblyReference.cache
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.AssemblyInfoInputs.cache
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.AssemblyInfo.cs
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.sourcelink.json
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.csproj.Up2Date
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.dll
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\refint\AYShop.BLL.dll
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\AYShop.BLL.pdb
+C:\Users\Abood\Desktop\Backend\Projects\AYShop\AYShop.BLL\obj\Debug\net9.0\ref\AYShop.BLL.dll
