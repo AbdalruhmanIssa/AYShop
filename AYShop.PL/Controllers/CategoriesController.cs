@@ -1,4 +1,4 @@
-﻿using AYShop.BLL.Services;
+﻿using AYShop.BLL.Services.Interface;
 using AYShop.DAL.DTO.Requests;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,34 +11,34 @@ namespace AYShop.PL.Controllers
     {
         private readonly ICategoryService _categoryService;
 
-       public CategoriesController(ICategoryService categoryService)
+        public CategoriesController(ICategoryService categoryService)
         {
-           _categoryService = categoryService;
+            _categoryService = categoryService;
         }
         [HttpGet("")]
         public IActionResult GetAll()
         {
-            return Ok(_categoryService.GetAllCategories());
+            return Ok(_categoryService.GetAll());
         }
 
         [HttpGet("{id}")]
         public IActionResult Get([FromRoute] int id)
         {
-            var category = _categoryService.GetCategoryById(id);
+            var category = _categoryService.GetById(id);
             if (category is null) return NotFound();
             return Ok(category);
         }
         [HttpPost]
         public IActionResult Create([FromBody] CategoryRequest request)
         {
-            var id = _categoryService.CreateCategory(request);
-            return CreatedAtAction(nameof(Get), new { id }, new {message=request});
+            var id = _categoryService.Create(request);
+            return CreatedAtAction(nameof(Get), new { id }, new { message = request });
         }
 
         [HttpPatch("{id}")]
         public IActionResult Update([FromRoute] int id, [FromBody] CategoryRequest request)
         {
-            var updated = _categoryService.UpdateCategory(id, request);
+            var updated = _categoryService.Update(id, request);
             return updated > 0 ? Ok() : NotFound();
         }
         [HttpPatch("ToggleStatus/{id}")]
@@ -53,7 +53,7 @@ namespace AYShop.PL.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var deleted = _categoryService.DeleteCategory(id);
+            var deleted = _categoryService.Delete(id);
             return deleted > 0 ? Ok() : NotFound();
         }
 

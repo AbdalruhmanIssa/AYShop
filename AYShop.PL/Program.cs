@@ -1,7 +1,8 @@
-
-using AYShop.BLL.Services;
+using AYShop.BLL.Services.Classes;
+using AYShop.BLL.Services.Interface;
 using AYShop.DAL.Data;
-using AYShop.DAL.Repositories;
+using AYShop.DAL.Repositories.Classes;
+using AYShop.DAL.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -23,6 +24,7 @@ namespace AYShop.PL
 options.UseSqlServer(builder.Configuration["ConnectionStrings:DefaultConnection"]));
             builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IBrandRepository, BrandRepository>();
         
             var app = builder.Build();
 
